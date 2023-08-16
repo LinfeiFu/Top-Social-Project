@@ -14,7 +14,7 @@ app.use(cors());
 app.use(express.json());
 
 //router需要挂在在数据解析(json)和跨域全局中间件(cors)后面
-app.use(router);
+app.use("/api",router);
 // use error middleware at the end
 app.use(handleErrors);
 
