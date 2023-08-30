@@ -11,6 +11,13 @@ async function getHighline() {
     return response.data;
 }
 
+async function getCards() {
+  const path = getPath("cards");
+  const response = await getInfo(path);
+  console.log(response);
+  return response.data;
+}
+
 async function getProfile() {
     const path = getPath("profile");
     const response = await getInfo(path);
@@ -28,3 +35,4 @@ async function getInfo(path) {
 
   export const highline = await getHighline();
   export const profile = await getProfile();
+  export const cards = await getCards();
