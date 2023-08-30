@@ -41,7 +41,7 @@
     {
       "id": 2,
       "profile": {
-        "src": "./src/images/profile/profile_3.png",
+        "src": "./images/profile/profile_3.png",
         "name": "Lana Rose",
         "position": "Somewhere",
         "time": "15 MINUTES AGO"

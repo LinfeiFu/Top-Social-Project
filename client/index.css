@@ -23,3 +23,5 @@
 @import "./src/css/frames/main/mid/main_middle_card.css";
 @import "./src/css/frames/main/mid/main_middle_highline.css";
 @import "./src/css/frames/main/mid/main_middle_post.css";
+
+@import "./src/css/media/media.css";
